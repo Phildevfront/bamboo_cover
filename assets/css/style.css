@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------FONTS--------------------*/
+
+@font-face {
+    font-family: KaushanScript-Regular;
+    src: url('../fonts/KaushanScript-Regular.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url('../fonts/Quicksand-Bold.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Quicksand-Italic;
+    src: url('../fonts/Quicksand-Italic.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Quicksand-Light;
+    src: url('../fonts/Quicksand-Light.otf');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url('../fonts/Quicksand-Regular.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-weight: normal;
+}
+
+/*---------------------COMMON-------------------*/
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    color: black;
+    font-family: 'OpenSans-Regular';
+    overflow-x: hidden;
+}
+
+h2.white {
+    font-family: Quicksand-Light;
+    font-weight: lighter;
+    font-size: 5em;
+    color: white;
+    margin-top: 60px;
+    margin-left: 240px;
+}
+
+h2.grey {
+    font-family: Quicksand-Light;
+    font-weight: lighter;
+    font-size: 5em;
+    color: rgb(105, 105, 105);
+    margin-top: 60px;
+    margin-left: 240px;
+}
+
+/*----------------------HEADER-------------------------*/
+
+h1 {
+    font-family: KaushanScript-Regular;
+    font-size: 4em;
+    color: burlywood;
+    margin-bottom: 50px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    background: url('../img/1500_big_pic_01.jpg') center center no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+header img {
+    width: 240px;
+}
+
+#header-grey-title-elt {
+    height: 240px;
+    width: 650px;
+    background-color: rgb(219, 218, 218);
+    position: relative;
+    top: 43vh;
+}
+
+.grey-container-animated-fadeInUp img {
+    height: 240px;
+    width: 190px;
+}
+
+header .grey-container-animated-fadeInUp {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.header-grey-title-text {
+    padding:30px;
+    font-family: Quicksand-Regular;
+    font-weight: normal;
+    font-size: 1em;
+    color:rgb(46, 46, 46)
+}
+.grey-content{
+    font-family: Quicksand-Bold;
+    font-weight: 900;
+    color: rgb(87, 85, 83);
+}
+
+.brown-content{
+    font-family: Quicksand-Bold;
+    font-weight: 900;
+    color: rgb(192, 121, 15);
+}
+
+/*--------------------SECTION BAMBOO STRAWS----------------------*/
+
+.bamboo-straws {
+    height: auto;
+    width: 100%;
+}
+
+.bamboo-title-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 590px;
+    background: url("../img/1500_big_pic_02.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+#bamboo-title {
+    position: relative;
+    font-family: Quicksand-Light;
+    font-weight: normal;
+    color: white;
+    font-size: 5em;
+    left: 200px;
+    top: 100px
+}
+
+.bamboo-title-container p {
+    position: relative;
+    font-family: KaushanScript-Regular;
+    font-weight: normal;
+    font-size: 2em;
+    color: white;
+    left: 200px;
+    bottom: 50px
+}
+
+.square-container {
+    height: 200px;
+    width: 270px;
+    position: relative;
+    left: 770px;
+    bottom: 120px;
+    background-color: white;
+    padding: 50px;
+}
+
+.square-container p{
+    font-family: Quicksand-Bold;
+    font-weight: 900;
+    font-size: 2em;
+    color: rgb(87, 85, 83);
+    text-align: left;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container .card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    height: 373px;
+    width: 248px;
+    margin-right: 10px;
+}
+
+
+.card-container .card p {
+    margin:20px;
+    font-family: OpenSans-Regular;
+    font-size: 32px;
+    color: white;
+    border-top: 1px solid white;
+    padding-top: 5px;
+}
+
+.bamboo-straws .card-container .card:first-child{
+    background: url("../img/all_small_pic_02.jpg") center center no-repeat;
+    background-size: cover ;
+}
+
+.bamboo-straws .card-container .card:nth-child(2){
+    background: url("../img/all_small_pic_03.jpg") center center no-repeat;
+    background-size: cover ;
+}
+
+.bamboo-straws .card-container .card:last-child{
+    background: url("../img/all_small_pic_04.jpg") center center no-repeat;
+    background-size: cover ;
+}
+
+/*-----------------SECTION PURCHASE-------------------*/
+
+.purchase {
+    display: flex;
+    height: 956px;
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: url("../img/1500_big_pic_03.jpg") center center no-repeat;
+    background-size: cover;
+
+}
+
+/*-----------------SECTION THE CHANGE-------------------*/
+
+.the-change {
+    display: flex;
+    height: 594px;
+    width: 100%;
+    margin-bottom: 30px;
+    background: url("../img/1500_big_pic_04.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+
+
+/*-----------------SECTION USE OF BAMBOO-------------------*/
+
+.use-of-bamboo {
+    display: flex;
+    height: 594px;
+    width: 100%;
+    margin-bottom: 30px;
+    background: url("../img/1500_big_pic_05.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+
+/*-----------------SECTION ABOUT US-------------------*/
+
+.about-us {
+    display: flex;
+    height: 1160px;
+    width: 100%;
+    background: url("../img/1500_big_pic_06.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+/*-----------------SECTION CONTACT US-------------------*/
+
+.contact-us {
+    display: flex;
+    height: 594px;
+    width: 100%;
+    background: url("../img/1500_big_pic_07.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+/*-----------------SECTION NEWSLETTER-------------------*/
+
+.newsletter {
+    display: flex;
+    height: 594px;
+    width: 100%;
+    background: url("../img/1500_big_pic_08.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+/*----------------------FOOTER--------------------------*/
+
+footer {
+    display: flex;
+    height: 794px;
+    width: 100%;
+    background: url("../img/1500_big_pic_09.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+
+
